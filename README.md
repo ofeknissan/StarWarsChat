@@ -77,4 +77,6 @@ Chatting Platform
   * send location in chat - using the paperclip button and pressing on the location icon
   * send file in chat - using the paperclip button and pressing on the file icon
   * image preview - clicking on the contact image above the selected chat (after selecting a contact to chat with)
+* server:
+  * JWT token
 
