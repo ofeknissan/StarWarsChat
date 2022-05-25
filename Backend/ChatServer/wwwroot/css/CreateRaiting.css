@@ -1,0 +1,10 @@
+﻿
+.background-form {
+    background: rgba(255, 255, 255,0.25);
+    border-radius: 40px;
+    padding: 10%;
+}
+
+.link {
+    float: right
+}

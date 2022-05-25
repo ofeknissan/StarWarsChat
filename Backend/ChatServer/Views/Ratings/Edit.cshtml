@@ -1,0 +1,51 @@
+﻿@model ChatServer.Models.Rating
+<link rel="stylesheet" href="~/css/CreateRaiting.css" type="text/css" />
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<br />
+<div class="row justify-content-center">
+    <div class="background-form">
+        <center><h1 class="text-light">Edit</h1></center>
+        <hr class="text-light" />
+        <center>
+            <div class="col-md-4">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label text-light"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Score" class="control-label text-light"></label>
+                        <input asp-for="Score" class="form-control" />
+                        <span asp-validation-for="Score" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Text" class="control-label text-light"></label>
+                        <input asp-for="Text" class="form-control" />
+                        <span asp-validation-for="Text" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <br />
+                        
+                        <input type="submit" value="Send!" class="btn btn-primary" />
+                        <a class="btn btn-secondary link button-rating-create card-link" asp-action="Index">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </center>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

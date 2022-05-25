@@ -1,0 +1,25 @@
+﻿
+
+.name1 {
+    display: inline;
+}
+
+.rating-name {
+    vertical-align: middle;
+    font-size: 21px
+}
+
+.ratebutton{
+    margin-top:1.4rem;
+    margin-bottom:1rem;
+}
+.rating-text {
+    vertical-align: middle;
+    font-size: 19px
+}
+
+.button-rating-create {
+    font-weight: normal;
+    vertical-align: middle;
+    font-size: 18px
+}

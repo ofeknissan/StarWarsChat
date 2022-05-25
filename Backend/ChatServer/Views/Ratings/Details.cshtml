@@ -1,0 +1,25 @@
+﻿@model ChatServer.Models.Rating
+<link rel="stylesheet" href="~/css/DetailsRaiting.css" type="text/css" />
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<center>
+<h1 class="text-light">Details</h1>
+<br />
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h1 class="card-title model-name">@Html.DisplayFor(model => model.Name)</h1>
+        <h6 class="card-subtitle mb-2 text-muted raiting-score"> @Html.DisplayFor(model => model.Score)</h6>
+        <p class="card-text card-body">@Html.DisplayFor(model => model.Text)</p>
+        <a class="btn btn-outline-dark button-rating-create card-link" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+        <a class="btn btn-outline-dark button-rating-create card-link" asp-action="Index">Back to List</a>
+    </div>
+</div>
+</center>
+
+@section scripts {
+    <script src="~/js/ratingStars.js" type="text/javascript"></script>
+
+}
