@@ -10,6 +10,8 @@ Chatting Platform
 
 * A web client coded with JavaScript / Html / CSS
 * Using React framework
+* Include server side
+* Using MariaDB
 
 ## Authors
 
