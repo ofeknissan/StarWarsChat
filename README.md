@@ -44,6 +44,7 @@ Chatting Platform
 * npm install
 * open "Backend" visual studio project
 * in "appsettings.json" change connectionstring password to match mariadb password
+* in Package Manager Console: "update-database"
 
 ### Executing program
 
