@@ -40,12 +40,15 @@ Chatting Platform
 * cd StarWarsChat
 * cd "Front end"
 * npm install
-* cd ..
-* 
+* open "Backend" visual studio project
+* in "appsettings.json" change connectionstring password to match mariadb password
 
 ### Executing program
 
-* npm start
+* in StartWarsChat/Front end:
+  * npm start
+* in Backend visual studio project:
+  * run the server 
 
 ### How to test the system
 
