@@ -36,68 +36,24 @@ Chatting Platform
 
 ### Installing
 
-* git clone https://github.com/ofeknissan/advancedprogramming.git
-* cd advancedprogramming
+* git clone https://github.com/ofeknissan/StarWarsChat.git
+* cd StarWarsChat
+* cd "Front end"
 * npm install
+* cd ..
+* 
 
 ### Executing program
 
 * npm start
 
-### How to test the chatting system
-
-* Login to: ``` Username: matan Password: A123123 ```
-* Users in the hardcoded list:
-
-  <table>
-    <thead>
-      <tr>
-        <th>UserName</th>
-        <th>Password</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>ofek</td>
-          <td>A123123</td>
-        </tr>
-        <tr>
-            <td>tamir</td>
-            <td>A123123</td>
-        </tr>
-       <tr>
-            <td>matan</td>
-            <td>A123123</td>
-        </tr>
-        <tr>
-            <td>elad</td>
-            <td>A123123</td>
-        </tr>
-      <tr>
-            <td>Neria</td>
-            <td>A123123</td>
-        </tr>
-        <tr>
-            <td>yossi</td>
-            <td>A123123</td>
-        </tr>
-       <tr>
-            <td>dina</td>
-            <td>A123123</td>
-        </tr>
-        <tr>
-            <td>roni</td>
-            <td>A123123</td>
-        </tr>
-       <tr>
-            <td>Nellbi</td>
-            <td>A123123</td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
+### How to test the system
+* Chat:
+  * Visit http://localhost:3000/signup
+  * Register
+  * Now you can add contacts to chat with.
+* Rating Application:
+  * Visit http://localhost:5018/
 
 ### Bonus features
                          
