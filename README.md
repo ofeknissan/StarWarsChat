@@ -67,7 +67,7 @@ Chatting Platform
 * Rating Application:
   * Visit http://localhost:3000/ OR http://localhost:3000/signup
   * Click on the rate us link on the bottom left.
-  * Add rating with the *rate us* button.
+  * Add rating with the rate us button.
   * Edit/display/delete rating by using the buttons in the table.
   * Search ratings by their description.
   
