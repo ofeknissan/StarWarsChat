@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 1200px) {
+    .default-image {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .default-image {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 686px) {
+    .default-image {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 522px) {
+    .default-image {
+        width: 200px;
+    }
+}

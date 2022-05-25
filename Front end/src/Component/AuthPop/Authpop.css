@@ -1,0 +1,17 @@
+.authMessage{
+    position:absolute;
+    display: inline;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(182, 0, 0);
+}
+.authPop{
+    display: inline;
+}
+
+.questionMarkIcon {
+    color: white;
+    margin-left: 5px;
+}
