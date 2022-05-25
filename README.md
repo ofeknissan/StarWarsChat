@@ -20,9 +20,19 @@ Chatting Platform
 
 ### Dependencies
 
+#### Front-end:
 * react
 * react-bootstrap
 * react-router-dom
+
+#### Back-end:
+* @microsoft/signalr
+* Microsoft.AspNetCore.Authentication.JwtBearer
+* Microsoft.EntityFrameworkCore.SqlServer
+* Microsoft.EntityFrameworkCore.Tools
+* Pomelo.EntityFrameworkCore.MySql
+* Swashbuckle.AspNetCore
+* Microsoft.VisualStudio.Web.CodeGeneration.Design
 
 ### Installing
 
