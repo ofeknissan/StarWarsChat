@@ -1,0 +1,36 @@
+.emoji-desk {
+    height: 500px;
+    width: 500px;
+    overflow: auto;
+    cursor: auto;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+@media screen and (max-width: 925px) {
+    .emoji-desk {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .emoji-desk {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .emoji-desk {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+
+
+.specific-emoji {
+    cursor: pointer;
+    align-items: center;
+}
