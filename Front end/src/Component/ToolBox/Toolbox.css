@@ -1,0 +1,17 @@
+.toolbox {
+    background: rgb(39, 39, 39);
+    position: relative;
+}
+.btn-text{
+    color: white;
+}
+
+.dropdown-menu{
+    min-width: 0%;
+    transform: translate(-2px, -50px) !important; 
+}
+
+.dropdown-toggle::after {
+    display: none !important; 
+  }
+  
