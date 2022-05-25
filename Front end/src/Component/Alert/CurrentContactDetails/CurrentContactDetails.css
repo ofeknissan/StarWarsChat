@@ -1,0 +1,9 @@
+.modal-img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.modal-current-contact {
+    background-color: transparent;
+    border: 0px;
+}
