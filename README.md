@@ -48,29 +48,23 @@ Chatting Platform
 * npm start
 
 ### How to test the system
-* Chat:
-  * Visit http://localhost:3000/signup
-  * Register
-  * Now you can add contacts to chat with.
-* Rating Application:
-  * Visit http://localhost:5018/
 
 * To access the chat:
   * Visit http://localhost:3000/
   * Register:
-    * click on the link on the bottom right of the login page
+    * click on the link on the bottom right of the login page.
   ##### OR
   * Login:
-    * Enter username and password and click submit
+    * Enter username and password and click submit.
 * In the chat:
   * Add contact with the button near your name.
   * Click on existing contacts to chat with them.
 * Rating Application:
-  * Visit http://localhost:3000/
-  * Click on the rate us link on the bottom left
-  * Add rating with the *rate us* button
-  * Edit/display/delete rating by using the buttons in the table
-  * Search ratings by their description
+  * Visit http://localhost:3000/ OR http://localhost:3000/signup
+  * Click on the rate us link on the bottom left.
+  * Add rating with the *rate us* button.
+  * Edit/display/delete rating by using the buttons in the table.
+  * Search ratings by their description.
   
 
 ### Bonus features
